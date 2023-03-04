@@ -1,1 +1,5 @@
 # Music-Recommendation-using-emotion-detection
+Music plays an important role in our life. It’s not just a source of entertainment in our life. It gives us relief and reduces our stress thus music also imparts a therapeutic approach. It helps to improve our mental health.
+This project recognizes the facial expressions of user and play songs according to emotion. Facial expressions are best way of expressing mood of a person. The facial expressions are captured using a webcam and face detection is done by using Haar cascade classifier.
+The captured image is input to CNN which learn features and these features are analyzed to determine the current emotion of user then the music will be played according to the emotion. In this project, five emotions are considered for classification which includes happy, sad, anger, surprise, frustration, fear, neutral.
+This project consists of 4 modules-face detection, feature extraction, emotion detection, songs classification. Face detection is done by Haar cascade classifier,feature extraction and emotion detection are done by CNN. Finally, the songs are played according to the emotion recognized.
